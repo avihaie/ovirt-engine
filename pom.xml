@@ -61,7 +61,7 @@
     <jboss.ejb3.ext.api.version>2.0.0-beta-1</jboss.ejb3.ext.api.version>
     <jboss.ejb3.core.version>1.1.18</jboss.ejb3.core.version>
     <javax.ejb.api.version>1.0.2.Final</javax.ejb.api.version>
-    <javax.jstl.api.version>1.0.3.Final</javax.jstl.api.version>
+    <javax.jstl.api.version>1.1.4.Final</javax.jstl.api.version>
     <javax.interceptor.api.version>1.0.0.Final</javax.interceptor.api.version>
     <dozer.version>5.2.0</dozer.version>
     <cxf.version>2.2.7</cxf.version>
@@ -662,7 +662,7 @@
                                 </goals>
                             </pluginExecutionFilter>
                             <action>
-                                <execute />
+                                <execute/>
                             </action>
                         </pluginExecution>
                         <pluginExecution>
@@ -676,7 +676,7 @@
                                 </goals>
                             </pluginExecutionFilter>
                             <action>
-                                <execute />
+                                <execute/>
                             </action>
                         </pluginExecution>
                     </pluginExecutions>
