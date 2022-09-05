@@ -14,7 +14,7 @@
     <maven.compiler.target>11</maven.compiler.target>
     <maven-resources-plugin.version>2.5</maven-resources-plugin.version>
     <slf4j.version>1.7.22</slf4j.version>
-    <snakeyaml.version>1.17</snakeyaml.version>
+    <snakeyaml.version>1.31</snakeyaml.version>
 
     <working-zanata-directory>target/zanata</working-zanata-directory>
   </properties>
@@ -69,7 +69,7 @@
           <arguments>
             <argument>-Djava.util.logging.config.file=src/main/resources/jul.properties</argument>
             <argument>-classpath</argument>
-            <classpath />
+            <classpath/>
             <argument>org.ovirt.engine.i18n.NormalizePulledTranslations</argument>
             <argument>${basedir}/documents.yml</argument>
             <argument>${working-zanata-directory}</argument>
