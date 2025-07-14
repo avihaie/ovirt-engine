@@ -23,7 +23,7 @@
     <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-lang3</artifactId>
-      <version>3.5</version>
+      <version>3.18.0</version>
     </dependency>
 
     <dependency>
@@ -69,7 +69,7 @@
           <arguments>
             <argument>-Djava.util.logging.config.file=src/main/resources/jul.properties</argument>
             <argument>-classpath</argument>
-            <classpath />
+            <classpath/>
             <argument>org.ovirt.engine.i18n.NormalizePulledTranslations</argument>
             <argument>${basedir}/documents.yml</argument>
             <argument>${working-zanata-directory}</argument>
